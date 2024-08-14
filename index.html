@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+        <link rel="stylesheet" href="css/style.css" />
+        <title>القرآن الكريم</title>
+    </head>
+
+    <body>
+
+        <div id="wrapper">
+
+            <h1>القرآن الكريم</h1>
+
+            <div id="control">
+                <button data-offset="-100" aria-label="Go back by hundred pages" class="control__button">
+                    &#60;&#60;&#60;
+                </button>&#160;
+                <button data-offset="-10" aria-label="Go back by ten pages" class="control__button">
+                    &#60;&#60;
+                </button>&#160;
+                <button data-offset="-1" aria-label="Go back by one page" class="control__button">
+                    &#60;
+                </button>&#160;
+                <span class="control__page-num"></span>&#160;
+                <button data-offset="1" aria-label="Go forward by one page" class="control__button">
+                    &#62;
+                </button>&#160;
+                <button data-offset="10" aria-label="Go forward by ten pages" class="control__button">
+                    &#62;&#62;
+                </button>&#160;
+                <button data-offset="100" aria-label="Go forward by hundred pages" class="control__button">
+                    &#62;&#62;&#62;
+                </button>&#160;
+            </div>
+
+
+            <div id="main">
+                <div id="suras">
+                    <table class="suras__table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>اسم</th>
+                                <th>صفحة</th>
+                                <th>عدد الآيات</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Loading ...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+                <div id="page">
+                    Loading ...
+                </div>
+
+                <div id="tafseer">
+                    Loading ...
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="js/jquery.hotkey.js"></script>
+        <script src="js/quran.js"></script>
+    </body>
+
+</html>
